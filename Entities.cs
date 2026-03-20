@@ -37,7 +37,6 @@ public class Person : Ageable{
 public class Car : Ageable{
     private string Name;
     private string Id;
-    private int Year;
 
     public Car(string model, string vin, int year) : base(year){
         Name = model;
