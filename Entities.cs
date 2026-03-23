@@ -3,7 +3,13 @@
 public class Ageable{
     protected int Year;
 
-    protected Ageable(int year){
+    public int Age{
+        get{
+            return DateTime.Now.Year - Year;
+        }
+    }
+
+    public Ageable(int year){
         Year = year;
     }
 }
